@@ -4,35 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>หน้าแนะนำตัว</title>
-    <style>
-        body {
-            font-family: 'Sarabun', Arial, sans-serif;
-            background-color: #f4f6f8;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .card {
-            background: white;
-            padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-            text-align: center;
-            max-width: 400px;
-        }
-        h1 { color: #2c3e50; margin-bottom: 10px; }
-        p { color: #555; font-size: 18px; margin: 8px 0; }
-        .label { font-weight: bold; color: #2980b9; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="card">
-        <h1>สวัสดีครับ 👋</h1>
-        <p><span class="label">ชื่อ-นามสกุล:</span> กิตติพัฒน์ ประชุมสาร</p>
-        <p><span class="label">สาขาวิชา:</span> วิศวกรรมคอมพิวเตอร์</p>
-        <p><span class="label">รหัสนักศึกษา:</span> 671540005012-3</p>
+        <div class="avatar">👋</div>
+        <h1>สวัสดีครับ</h1>
+        <div class="info-row">
+            <span class="label">ชื่อ-นามสกุล</span>
+            <span class="value">กิตติพัฒน์ ประชุมสาร</span>
+        </div>
+        <div class="info-row">
+            <span class="label">สาขาวิชา</span>
+            <span class="value">วิศวกรรมคอมพิวเตอร์</span>
+        </div>
+        <div class="info-row">
+            <span class="label">รหัสนักศึกษา</span>
+            <span class="value">671540005012-3</span>
+        </div>
+        <p class="footer-note">Thank you for visiting my profile page</p>
     </div>
 </body>
 </html>
